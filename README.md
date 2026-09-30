@@ -1,4 +1,4 @@
 
-python java virtual machine
+get data from sin cos 60 division
 
 
