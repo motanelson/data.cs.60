@@ -32,7 +32,7 @@ namespace Cosmosangle
                 {
 
 
-                    s = (Math.Cos(d2 * ((double)i))).ToString();
+                    s = (Math.Cos(d2 * ((double)i))).ToString("f5");
                     s = s.Replace(",", ".");
                     if (s.Length > 6)
                     {
@@ -48,7 +48,7 @@ namespace Cosmosangle
 
                     }
 
-                    s = (Math.Sin(d2 * ((double)i))).ToString();
+                    s = (Math.Sin(d2 * ((double)i))).ToString("f5");
                     s = s.Replace(",", ".");
                     if (s.Length > 6)
                     {
